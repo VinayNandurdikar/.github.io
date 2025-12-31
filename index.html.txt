@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vinay Nandurdikar | CAE / CFD Engineer</title>
+  <meta name="description" content="CAE / CFD / FEA portfolio showcasing simulation projects, tools, and certifications." />
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <!-- Deployment: Upload index.html, style.css, script.js to GitHub repo and enable Settings → Pages → main → root -->
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">VN</div>
+        <div>
+          <div class="brand-name">Vinay Nandurdikar</div>
+          <div class="brand-sub">Senior CAE / CFD Engineer</div>
+        </div>
+      </div>
+
+      <nav class="menu" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#software">Software</a>
+        <a href="#projects">Projects</a>
+        <a href="#courses">Courses</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+        <button id="themeBtn" class="btn ghost" type="button" aria-label="Toggle theme">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="pill">CAE • CFD • FEA • Multiphase • FIV/FFT • Automation</p>
+          <h1>Multiphysics Simulation Portfolio</h1>
+          <p class="lead">
+            I showcase real engineering work across CFD, FEA, meshing, and automation — focused on
+            valves, attemperators/desuperheaters, and reliability analysis.
+          </p>
+
+          <div class="cta">
+            <a class="btn primary" href="assets/reports/resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact</a>
+          </div>
+
+          <div class="mini">
+            <div class="mini-card">
+              <div class="mini-num">10+</div>
+              <div class="mini-text">Tools & methods</div>
+            </div>
+            <div class="mini-card">
+              <div class="mini-num">CFD</div>
+              <div class="mini-text">Steady & transient</div>
+            </div>
+            <div class="mini-card">
+              <div class="mini-num">FEA</div>
+              <div class="mini-text">Fatigue & thermal</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h2>Quick Profile</h2>
+          <ul class="checklist">
+            <li>Real-gas steam simulations & pressure drop validation</li>
+            <li>Multiphase mixing (VOF/DPM concepts) for desuperheating</li>
+            <li>FIV screening using transient CFD + FFT workflows</li>
+            <li>ANSYS Meshing / HyperMesh / ANSA model preparation</li>
+            <li>Python/MATLAB automation for post-processing</li>
+          </ul>
+          <div class="hero-note">
+            <strong>Location:</strong> Nashik, Maharashtra, India<br>
+            <strong>Open to:</strong> CAE/CFD projects, analysis support, automation
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p>
+            I’m a simulation engineer focused on practical, production-oriented CAE.
+            My work spans CFD (compressible, real-gas steam, transient), multiphase mixing,
+            and structural reliability topics like fatigue/thermal response. I enjoy turning
+            complex physics into clear engineering insight with clean post-processing and documentation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="software" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Software & Skills</h2>
+          <p>Click any card to jump to related projects (placeholders you can keep adding later).</p>
+        </div>
+
+        <div class="grid" role="list">
+          <button class="card" data-filter="CFD" role="listitem">
+            <h3>ANSYS Fluent</h3><p>Compressible, real-gas, transient, post-processing.</p><span class="tag">CFD</span>
+          </button>
+          <button class="card" data-filter="FEA" role="listitem">
+            <h3>ANSYS Mechanical</h3><p>Static, thermal, fatigue workflows.</p><span class="tag">FEA</span>
+          </button>
+          <button class="card" data-filter="CFD" role="listitem">
+            <h3>STAR-CCM+</h3><p>CFD workflows & verification.</p><span class="tag">CFD</span>
+          </button>
+          <button class="card" data-filter="Meshing" role="listitem">
+            <h3>HyperMesh</h3><p>Cleanup, shell/solid meshing, quality control.</p><span class="tag">Meshing</span>
+          </button>
+          <button class="card" data-filter="Meshing" role="listitem">
+            <h3>ANSA</h3><p>Pre-processing, mesh setup, CAE model prep.</p><span class="tag">Meshing</span>
+          </button>
+          <button class="card" data-filter="FEA" role="listitem">
+            <h3>LS-DYNA</h3><p>Dynamics / explicit analysis exposure.</p><span class="tag">FEA</span>
+          </button>
+          <button class="card" data-filter="EM" role="listitem">
+            <h3>Maxwell</h3><p>Electromagnetics (placeholder).</p><span class="tag">EM</span>
+          </button>
+          <button class="card" data-filter="EM" role="listitem">
+            <h3>Motor-CAD</h3><p>Motor simulation (placeholder).</p><span class="tag">EM</span>
+          </button>
+          <button class="card" data-filter="CAD" role="listitem">
+            <h3>SolidWorks / Creo / AutoCAD</h3><p>CAD interpretation, model support.</p><span class="tag">CAD</span>
+          </button>
+          <button class="card" data-filter="Automation" role="listitem">
+            <h3>Python / MATLAB / C++</h3><p>Automation, data processing, scripting.</p><span class="tag">Automation</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Use the filters to browse. You can add unlimited projects by copying a card template.</p>
+        </div>
+
+        <div class="filters" aria-label="Project filters">
+          <button class="chip active" data-show="All" type="button">All</button>
+          <button class="chip" data-show="CFD" type="button">CFD</button>
+          <button class="chip" data-show="Multiphase" type="button">Multiphase</button>
+          <button class="chip" data-show="FIV/FFT" type="button">FIV/FFT</button>
+          <button class="chip" data-show="FEA" type="button">FEA</button>
+          <button class="chip" data-show="Meshing" type="button">Meshing</button>
+          <button class="chip" data-show="Automation" type="button">Automation</button>
+        </div>
+
+        <div class="projects" id="projectGrid">
+          <article class="p-card" data-tags="CFD">
+            <div class="p-top">
+              <h3>HP/IP Bypass Valve CFD</h3>
+              <span class="badge">CFD</span>
+            </div>
+            <ul>
+              <li>Steady + transient simulations under real-gas steam operating conditions.</li>
+              <li>Evaluated pressure drop, velocity distribution, and high-velocity regions.</li>
+              <li>Prepared clear plots for design validation and discussion.</li>
+            </ul>
+            <div class="p-meta">
+              <span>Tools: ANSYS Fluent</span>
+              <div class="p-links">
+                <a href="assets/images/project1.png" target="_blank" rel="noopener">Image</a>
+                <a href="assets/reports/project1.pdf" target="_blank" rel="noopener">Report</a>
+                <button class="linkbtn" data-modal="m1" type="button">Details</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="p-card" data-tags="Multiphase">
+            <div class="p-top">
+              <h3>Desuperheater / Attemperator Mixing</h3>
+              <span class="badge">Multiphase</span>
+            </div>
+            <ul>
+              <li>Studied spray–steam interaction & mixing uniformity (placeholders for results).</li>
+              <li>Focused on penetration, temperature homogenization, and operational stability.</li>
+              <li>Planned scalable workflow for multiple cases.</li>
+            </ul>
+            <div class="p-meta">
+              <span>Tools: ANSYS Fluent</span>
+              <div class="p-links">
+                <a href="assets/images/project2.png" target="_blank" rel="noopener">Image</a>
+                <a href="assets/reports/project2.pdf" target="_blank" rel="noopener">Report</a>
+                <button class="linkbtn" data-modal="m2" type="button">Details</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="p-card" data-tags="FIV/FFT">
+            <div class="p-top">
+              <h3>FIV Screening using CFD + FFT</h3>
+              <span class="badge">FIV/FFT</span>
+            </div>
+            <ul>
+              <li>Transient signals extracted from CFD probes for frequency identification.</li>
+              <li>FFT workflow to flag dominant flow frequencies vs structural modes.</li>
+              <li>Supported decision-making on mesh/time-step refinement.</li>
+            </ul>
+            <div class="p-meta">
+              <span>Tools: CFD + FFT</span>
+              <div class="p-links">
+                <a href="assets/images/project3.png" target="_blank" rel="noopener">Image</a>
+                <a href="assets/reports/project3.pdf" target="_blank" rel="noopener">Report</a>
+                <button class="linkbtn" data-modal="m3" type="button">Details</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="p-card" data-tags="FEA">
+            <div class="p-top">
+              <h3>Thermal / Fatigue Analysis</h3>
+              <span class="badge">FEA</span>
+            </div>
+            <ul>
+              <li>Set up thermal loading cases and extracted stress ranges.</li>
+              <li>Documented assumptions and prepared review-ready plots.</li>
+              <li>Built a reusable reporting checklist.</li>
+            </ul>
+            <div class="p-meta">
+              <span>Tools: ANSYS Mechanical</span>
+              <div class="p-links">
+                <a href="assets/images/project4.png" target="_blank" rel="noopener">Image</a>
+                <a href="assets/reports/project4.pdf" target="_blank" rel="noopener">Report</a>
+                <button class="linkbtn" data-modal="m4" type="button">Details</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="p-card" data-tags="Meshing">
+            <div class="p-top">
+              <h3>Meshing Workflow Optimization</h3>
+              <span class="badge">Meshing</span>
+            </div>
+            <ul>
+              <li>Quality-driven meshing with skewness/aspect-ratio control (placeholders).</li>
+              <li>Improved stability by addressing problematic cells near interfaces.</li>
+              <li>Created a repeatable checklist for pre-processing.</li>
+            </ul>
+            <div class="p-meta">
+              <span>Tools: ANSYS Meshing / HyperMesh / ANSA</span>
+              <div class="p-links">
+                <a href="assets/images/project5.png" target="_blank" rel="noopener">Image</a>
+                <a href="assets/reports/project5.pdf" target="_blank" rel="noopener">Report</a>
+                <button class="linkbtn" data-modal="m5" type="button">Details</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="p-card" data-tags="Automation">
+            <div class="p-top">
+              <h3>Automation for Post-Processing</h3>
+              <span class="badge">Automation</span>
+            </div>
+            <ul>
+              <li>Python utilities to organize plots, compute metrics, and prepare summaries.</li>
+              <li>Reduced repetitive reporting effort and improved consistency.</li>
+              <li>Designed templates for future expansion.</li>
+            </ul>
+            <div class="p-meta">
+              <span>Tools: Python / MATLAB</span>
+              <div class="p-links">
+                <a href="assets/images/project6.png" target="_blank" rel="noopener">Image</a>
+                <a href="assets/reports/project6.pdf" target="_blank" rel="noopener">Report</a>
+                <button class="linkbtn" data-modal="m6" type="button">Details</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Courses & Notes</h2>
+          <p>Use this section to list courses, learning notes, and links to PDFs.</p>
+        </div>
+
+        <div class="two-col">
+          <div class="box">
+            <h3>Courses (examples)</h3>
+            <ul class="list">
+              <li>Multiphase Flow (Course) — <a href="assets/certificates/course1.pdf" target="_blank" rel="noopener">Certificate</a></li>
+              <li>FSI (Course) — <a href="assets/certificates/course2.pdf" target="_blank" rel="noopener">Certificate</a></li>
+              <li>Turbulence Modeling — <a href="assets/reports/notes_turbulence.pdf" target="_blank" rel="noopener">Notes</a></li>
+            </ul>
+          </div>
+
+          <div class="box">
+            <h3>Notes (examples)</h3>
+            <ul class="list">
+              <li>CFD checklist — <a href="assets/reports/cfd_checklist.pdf" target="_blank" rel="noopener">PDF</a></li>
+              <li>VOF to DPM summary — <a href="assets/reports/vof_dpm_notes.pdf" target="_blank" rel="noopener">PDF</a></li>
+              <li>Fatigue mean stress corrections — <a href="assets/reports/fatigue_notes.pdf" target="_blank" rel="noopener">PDF</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Certificates</h2>
+          <p>Add PDFs into assets/certificates and update links anytime.</p>
+        </div>
+
+        <div class="certs">
+          <a class="cert" href="assets/certificates/cert1.pdf" target="_blank" rel="noopener">
+            <div class="cert-thumb">PDF</div>
+            <div class="cert-text">
+              <div class="cert-title">Certificate 1 (placeholder)</div>
+              <div class="cert-sub">Provider • Year</div>
+            </div>
+          </a>
+          <a class="cert" href="assets/certificates/cert2.pdf" target="_blank" rel="noopener">
+            <div class="cert-thumb">PDF</div>
+            <div class="cert-text">
+              <div class="cert-title">Certificate 2 (placeholder)</div>
+              <div class="cert-sub">Provider • Year</div>
+            </div>
+          </a>
+          <a class="cert" href="assets/certificates/cert3.pdf" target="_blank" rel="noopener">
+            <div class="cert-thumb">PDF</div>
+            <div class="cert-text">
+              <div class="cert-title">Certificate 3 (placeholder)</div>
+              <div class="cert-sub">Provider • Year</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Replace placeholders with your real email/LinkedIn once ready.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="box">
+            <h3>Details</h3>
+            <p><strong>Email:</strong> your.email@example.com</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/your-profile</p>
+            <p><strong>Location:</strong> Nashik, Maharashtra, India</p>
+            <p class="small">Tip: You can also use a Google Form and link it here.</p>
+          </div>
+
+          <div class="box">
+            <h3>Message (UI only)</h3>
+            <form class="form" onsubmit="return false;">
+              <label>
+                Name
+                <input type="text" placeholder="Your name">
+              </label>
+              <label>
+                Email
+                <input type="email" placeholder="your@email.com">
+              </label>
+              <label>
+                Message
+                <textarea rows="4" placeholder="Write your message..."></textarea>
+              </label>
+              <div class="form-actions">
+                <a class="btn primary" href="mailto:your.email@example.com?subject=Portfolio%20Inquiry">Send via Email</a>
+                <button class="btn" type="button" id="copyEmailBtn">Copy Email</button>
+              </div>
+              <p class="small" id="copyStatus" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot">
+      <span>© <span id="year"></span> Vinay Nandurdikar</span>
+      <a href="#top" class="toTop" id="toTop">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Modals -->
+  <dialog class="modal" id="m1">
+    <div class="modal-head">
+      <h3>HP/IP Bypass Valve CFD</h3>
+      <button class="x" data-close type="button">✕</button>
+    </div>
+    <p>Add detailed context: boundary conditions, mesh strategy, convergence, validation, key plots, and conclusions.</p>
+  </dialog>
+
+  <dialog class="modal" id="m2">
+    <div class="modal-head">
+      <h3>Desuperheater / Attemperator Mixing</h3>
+      <button class="x" data-close type="button">✕</button>
+    </div>
+    <p>Add details: spray settings, mixing length, temperature uniformity metrics, and recommended design changes.</p>
+  </dialog>
+
+  <dialog class="modal" id="m3">
+    <div class="modal-head">
+      <h3>FIV Screening using CFD + FFT</h3>
+      <button class="x" data-close type="button">✕</button>
+    </div>
+    <p>Add details: probe signals, FFT settings, dominant peaks, and recommendations for structural checks.</p>
+  </dialog>
+
+  <dialog class="modal" id="m4">
+    <div class="modal-head">
+      <h3>Thermal / Fatigue Analysis</h3>
+      <button class="x" data-close type="button">✕</button>
+    </div>
+    <p>Add details: load cases, stress ranges, S-N approach, mean stress correction choice, and safety margins.</p>
+  </dialog>
+
+  <dialog class="modal" id="m5">
+    <div class="modal-head">
+      <h3>Meshing Workflow Optimization</h3>
+      <button class="x" data-close type="button">✕</button>
+    </div>
+    <p>Add details: mesh targets, boundary layer strategy, quality metrics, and stability improvements.</p>
+  </dialog>
+
+  <dialog class="modal" id="m6">
+    <div class="modal-head">
+      <h3>Automation for Post-Processing</h3>
+      <button class="x" data-close type="button">✕</button>
+    </div>
+    <p>Add details: scripts used, inputs/outputs, plots generated, and time saved per project.</p>
+  </dialog>
+
+</body>
+</html>
